@@ -9,17 +9,18 @@ const Index = () => {
 ReactDOM.render(<Index />, document.body);
 */
 
-window.Please = require('altspace/lib/Please.min')
-require('altspace');
+//window.Please = require('altspace/lib/Please.min')
+//require('altspace');
 import STLloader from 'three/examples/js/loaders/STLLoader'
 import SimplifyModifier from 'three/examples/js/modifiers/SimplifyModifier';
 import BufferGeometryUtils from 'three/examples/js/BufferGeometryUtils'
-
-import NativeComponent from 'altspace/src/components/NativeComponent'
+//import NativeComponent from 'altspace/src/components/NativeComponent'
 
 var modifer = new THREE.SimplifyModifier();
 
-var sim = new altspace.utilities.Simulation();
+if(altspace) {
+  var sim = new altspace.utilities.Simulation();
+}
 var config = {
   authorId: 'Shawn Khameneh',
   appId: 'DemoApp',
