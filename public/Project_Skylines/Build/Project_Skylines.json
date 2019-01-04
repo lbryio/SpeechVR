@@ -1,0 +1,16 @@
+{
+"companyName": "Luaek",
+"productName": "Neon Skylines",
+"dataUrl": "Project_Skylines.data.unityweb",
+"wasmCodeUrl": "Project_Skylines.wasm.code.unityweb",
+"wasmFrameworkUrl": "Project_Skylines.wasm.framework.unityweb",
+"asmCodeUrl": "Project_Skylines.asm.code.unityweb",
+"asmMemoryUrl": "Project_Skylines.asm.memory.unityweb",
+"asmFrameworkUrl": "Project_Skylines.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000",
+"cacheControl": {"default": "must-revalidate"}
+}
